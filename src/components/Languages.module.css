@@ -1,0 +1,51 @@
+.container{
+    background-color: black;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container h2{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing:1px;
+    margin-bottom: 7rem;
+}
+
+.heroContainer { 
+   
+    max-width: 114rem;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 7rem;
+    justify-content: space-around;
+    
+}
+.heroContainer ul h3{
+    font-size: 3rem;
+}
+.heroContainer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.heroContainer ul li{
+    font-family: 'Source Code Pro', monospace;
+    font-size:2rem;
+    list-style: circle;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+}
+@media (max-width : 600px){
+    
+    .container h2{
+        font-size: 3rem;
+    }
+    .heroContainer ul h3{
+        font-size: 1.5rem;
+    }
+    .heroContainer ul li{
+        font-size: 1.3rem;
+    }
+}

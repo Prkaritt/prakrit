@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialComponent from '../../components/SocialComponent';
+import Languages from '../../components/Languages';
 import styles from './MainScreen.module.css';
 
 //Components Import
@@ -10,6 +11,7 @@ const MainScreen = ()=>{
        <>
         <SocialComponent/>
         <HeroContent/>
+        <Languages/>
         
        </>
     )
