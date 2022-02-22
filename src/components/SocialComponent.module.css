@@ -1,0 +1,26 @@
+.container{
+    width: 100vw;
+    padding: 1rem;
+    
+}
+
+.heroContainer{
+
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list li{
+    cursor : pointer
+}
+
+.list li img{
+    height: 4rem;
+    width: 4rem;
+}
