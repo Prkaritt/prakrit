@@ -12,6 +12,8 @@
     width: 70rem;
     border: 5px solid white;
     padding: 2rem;
+    animation-name: moveUpSlow;
+    animation-duration: 1s;
 
     
     
@@ -48,5 +50,18 @@
     }
     .heroDescription{
         font-size: 2rem;
+    }
+}
+@keyframes moveUpSlow{
+    0%{
+        transform: translateY(100%);
+    }
+    80%{
+        transform: translateY(-5%);
+    }
+    100%{
+       
+        transform: translateY(0);
+        
     }
 }
