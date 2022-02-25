@@ -4,7 +4,7 @@ import styles from './SocialComponent.module.css'
 
 import instagram from './../assets/images/instagram.png'
 import linkedin from './../assets/images/linkedin.png'
-import github from './../assets/images/github.png'
+import github from './../assets/images/github-white.png'
 
 
 const SocialComponent = () => {
@@ -12,7 +12,7 @@ const SocialComponent = () => {
     <div className={styles.container}>
         <div className={styles.heroContainer}>
             <ul className={styles.list}>
-                <li><a href="https://github.com/Prkaritt"><img src={github}/></a></li>
+                <li style={{backgroundColor:'white'}}><a href="https://github.com/Prkaritt"><img src={github}/></a></li>
                 <li><a href="https://www.linkedin.com/in/prakrit-uprety-41467922b/" ><img src={linkedin}/></a></li>
                 <li><a href="https://www.instagram.com/prakrituprety/"><img src={instagram}/></a></li>
               
