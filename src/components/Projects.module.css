@@ -1,0 +1,19 @@
+.container{
+
+    padding-bottom: 7rem;
+}
+
+.heroContainer{
+    max-width: 114rem;
+    margin : 0 auto;
+}        
+
+.projects_container{
+    justify-content: space-between;
+}
+
+@media (max-width : 1140px){
+    .container{
+        padding: 0 7rem;
+    }
+}

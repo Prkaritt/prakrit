@@ -1,16 +1,10 @@
 .container{
     background-color: black;
     color: white;
-    font-family: 'Amatic SC', cursive;
+    
 }
 
-.container h2{
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    font-size: 5rem;
-    letter-spacing:1px;
-    margin-bottom: 7rem;
-}
+
 
 .heroContainer { 
    
@@ -22,6 +16,7 @@
     
 }
 .heroContainer ul h3{
+    font-family: 'Amatic SC', cursive;
     font-size: 3rem;
 }
 .heroContainer ul{
@@ -39,9 +34,6 @@
 }
 @media (max-width : 600px){
     
-    .container h2{
-        font-size: 3rem;
-    }
     .heroContainer ul h3{
         font-size: 1.5rem;
     }

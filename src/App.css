@@ -9,4 +9,55 @@ html{
 }
 body{
     font-size: 2rem;
+    background-color: black;
+    color: white;
+}
+
+.heading_primary{
+    font-family: 'Amatic SC', cursive;  
+
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing:1px;
+    margin-bottom: 7rem;
+}
+.heading_secondary{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;  
+    margin: 2rem 0;
+}    
+
+.heading_tertiary{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.spb{
+    justify-content: space-between;
+    
+
+}
+
+@media (max-width : 800px){
+    .flex_responsive{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width : 600px){
+    .heading_primary{
+        font-size: 3rem;
+    }
 }
