@@ -7,14 +7,12 @@ import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 
 const App = ()=>{
   return (
-    //<Router>
-     // <Routes>
-      //  <Route path="/" element={<MainScreen/>}/>
-     // </Routes>
-    //</Router>
-    <h1> 
-      404 Not Found
-    </h1>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainScreen/>}/>
+      </Routes>
+    </Router>
+   
   )
 }
 
